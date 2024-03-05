@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar img {
+    width: 60%;
+    display: block;
+    margin: 10px;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+.sidebar-menu li {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-item img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #333;
+    position: relative;
+}
+
+footer{
+    position: relative;
+    top: 525px;
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+#lastGroup{
+    position: relative;
+    top: -530px;
+}
+#play{position: relative;
+    height: 70px;
+    left: 260px;
+    top: 10px;
+}
+#option{position: relative;
+    top: -10px;
+    left: 1200px;
+    height: 22px;
+}
+#dreaming{
+    position: relative;
+    left:-820px;
+    height:70px
+}
+#likeg{
+    position: relative;
+    height: 20px;
+    top: -75px;
+    left:200px;
+}
+#last{
+    position: relative;
+    top: 505px;
+    background-color: #1ED760;
+    height: 20px;
+}
+
+.main-content img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.user-profile {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    width: 50px;
+    height: auto;
+}
+
+.block-letters {
+    position: absolute;
+    top: 70px;
+    left: 2%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+h2{
+    position: relative;
+    top: 300px;
+    left: 10px;
+    color: white;
+}
+
